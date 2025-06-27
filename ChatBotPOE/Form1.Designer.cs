@@ -94,7 +94,7 @@
             tabChat.Location = new Point(4, 24);
             tabChat.Name = "tabChat";
             tabChat.Padding = new Padding(3);
-            tabChat.Size = new Size(850, 458);
+            tabChat.Size = new Size(896, 458);
             tabChat.TabIndex = 0;
             tabChat.Text = "Chat";
             tabChat.UseVisualStyleBackColor = true;
@@ -309,7 +309,7 @@
             TabQuiz.Location = new Point(4, 24);
             TabQuiz.Name = "TabQuiz";
             TabQuiz.Padding = new Padding(3);
-            TabQuiz.Size = new Size(850, 458);
+            TabQuiz.Size = new Size(896, 458);
             TabQuiz.TabIndex = 2;
             TabQuiz.Text = "Quiz";
             TabQuiz.UseVisualStyleBackColor = true;
@@ -377,7 +377,7 @@
             // rb2
             // 
             rb2.AutoSize = true;
-            rb2.Location = new Point(25, 134);
+            rb2.Location = new Point(25, 140);
             rb2.Name = "rb2";
             rb2.Size = new Size(78, 19);
             rb2.TabIndex = 22;
@@ -387,7 +387,7 @@
             // rb3
             // 
             rb3.AutoSize = true;
-            rb3.Location = new Point(25, 153);
+            rb3.Location = new Point(25, 158);
             rb3.Name = "rb3";
             rb3.Size = new Size(78, 19);
             rb3.TabIndex = 21;
@@ -408,7 +408,7 @@
             // 
             rb1.AutoSize = true;
             rb1.Checked = true;
-            rb1.Location = new Point(25, 115);
+            rb1.Location = new Point(25, 124);
             rb1.Name = "rb1";
             rb1.Size = new Size(78, 19);
             rb1.TabIndex = 19;
