@@ -80,7 +80,7 @@
             TabMain.Location = new Point(0, 0);
             TabMain.Name = "TabMain";
             TabMain.SelectedIndex = 0;
-            TabMain.Size = new Size(904, 486);
+            TabMain.Size = new Size(977, 486);
             TabMain.TabIndex = 0;
             // 
             // tabChat
@@ -169,7 +169,7 @@
             tabTasks.Location = new Point(4, 24);
             tabTasks.Name = "tabTasks";
             tabTasks.Padding = new Padding(3);
-            tabTasks.Size = new Size(896, 458);
+            tabTasks.Size = new Size(969, 458);
             tabTasks.TabIndex = 1;
             tabTasks.Text = "Task";
             tabTasks.UseVisualStyleBackColor = true;
@@ -231,7 +231,7 @@
             lstTasks.ItemHeight = 15;
             lstTasks.Location = new Point(399, 43);
             lstTasks.Name = "lstTasks";
-            lstTasks.Size = new Size(494, 409);
+            lstTasks.Size = new Size(564, 409);
             lstTasks.TabIndex = 9;
             // 
             // label4
@@ -318,7 +318,7 @@
             // lblScoreFeedback
             // 
             lblScoreFeedback.AutoSize = true;
-            lblScoreFeedback.Location = new Point(297, 203);
+            lblScoreFeedback.Location = new Point(297, 163);
             lblScoreFeedback.Name = "lblScoreFeedback";
             lblScoreFeedback.Size = new Size(97, 15);
             lblScoreFeedback.TabIndex = 28;
@@ -328,7 +328,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 15F);
-            label8.Location = new Point(297, 149);
+            label8.Location = new Point(297, 115);
             label8.Name = "label8";
             label8.Size = new Size(65, 28);
             label8.TabIndex = 27;
@@ -338,7 +338,7 @@
             // 
             lblScore.AutoSize = true;
             lblScore.Font = new Font("Segoe UI", 11F);
-            lblScore.Location = new Point(297, 174);
+            lblScore.Location = new Point(297, 143);
             lblScore.Name = "lblScore";
             lblScore.Size = new Size(151, 20);
             lblScore.TabIndex = 26;
@@ -445,7 +445,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(916, 492);
+            ClientSize = new Size(980, 487);
             Controls.Add(TabMain);
             Name = "Form1";
             Text = "Form1";

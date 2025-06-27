@@ -14,7 +14,7 @@ namespace ChatBotPOE
         //method to add an entry to the log
         public static void AddEntry(string entry)
         {
-            LogEntries.Add($"{LogEntries.Count + 1}. {entry}"); 
+            LogEntries.Add(entry); 
 
         }
         public static List<string> getRecentEntries()

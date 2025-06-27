@@ -298,7 +298,7 @@ namespace ChatBotPOE
                 {
                     lblScoreFeedback.Text = "Almost there! With a little more practice you'll be a pro in no time!.";
                 }
-                else if (iScore > 5)
+                else if (iScore >= 5)
                 {
                     lblScoreFeedback.Text = "Great job! You have a solid understanding of cybersecurity!";
                 }

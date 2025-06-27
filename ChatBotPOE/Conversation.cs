@@ -146,15 +146,15 @@ namespace ChatBotPOE
                     return;
                 }
                 //if the user asks about tasks
-                if (input.Contains("task"))
+                if (input =="task" || input == "tasks")
                 {
-                    BotResponses(username + ", I can help you manage tasks. Please specify if you'd like to add a task.",Color.Green);
+                    BotResponses(username + ", I can help you manage tasks. Please specify if you'd like to add a task, byt typing 'add task'.",Color.Green);
                 return;
                 }
                 //if the user asks to take a quiz the quiz tab will be enabled and the user will be directed to the tab
                 if (input.Contains("quiz") && !quizTabEnabled)
                 {
-                    BotResponses($"The quiz tab has been enabled for you handle tasks, please return to me when you are done", Color.Green);
+                    BotResponses($"The quiz tab has been enabled for you to take the quiz, please return to me when you are done", Color.Green);
                     tabControl.TabPages.Add(tabQuiz);
                     tabControl.SelectedTab = tabQuiz;
                     quizTabEnabled = true;
