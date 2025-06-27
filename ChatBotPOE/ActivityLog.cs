@@ -11,10 +11,10 @@ namespace ChatBotPOE
     {
         public static List<string> LogEntries = new List<string>();
 
-
+        //method to add an entry to the log
         public static void AddEntry(string entry)
         {
-            LogEntries.Add($"{LogEntries.Count + 1}. {entry}");
+            LogEntries.Add($"{LogEntries.Count + 1}. {entry}"); 
 
         }
         public static List<string> getRecentEntries()
@@ -23,8 +23,8 @@ namespace ChatBotPOE
             int startIndex = Math.Max(0, count - 10);
             var recentEntries = LogEntries.GetRange(startIndex, count - startIndex);
 
-            List<String> Renumber = new List<string>();
-            for (int i = 0; i < recentEntries.Count; i++)
+            List<String> Renumber = new List<string>();     //list to store renumbered entries
+            for (int i = 0; i < recentEntries.Count; i++)    //renumbering entries
             {
                 Renumber.Add($"{i + 1}. {recentEntries[i]}");
             }

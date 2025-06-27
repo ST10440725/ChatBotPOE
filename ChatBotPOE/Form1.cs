@@ -8,6 +8,11 @@ using Microsoft.VisualBasic;
 
 namespace ChatBotPOE
 {
+    //References
+    //https://www.youtube.com/watch?v=vQzREQUhGSA
+    //https://www.youtube.com/watch?v=heoTab1e41A
+    //https://www.youtube.com/watch?v=tzRK0QFEte0
+
 
     public partial class Form1 : Form
     {
@@ -77,7 +82,7 @@ namespace ChatBotPOE
         // Method to play greeting sound
         private void PlayGreetingSound()
         {
-            using (SoundPlayer player = new SoundPlayer("VoiceGreeting.wav")) //
+            using (SoundPlayer player = new SoundPlayer("VoiceGreeting.wav")) 
             {
                 player.PlaySync();//method to ensure the sound file is played before the program carries on
             }

@@ -40,12 +40,13 @@ namespace ChatBotPOE
         {
             input = input.Trim().ToLower();            //variable to hold the user input
 
-            void BotResponses(string message, Color color, bool ShowPrompt = true)   //method for the bot responses
+            void BotResponses(string message, Color color, bool DisplayPrompt = true)   //method for the bot responses
             {
                 chatBox.SelectionColor = color;
                 chatBox.AppendText(message + "\n");
 
-                if (ShowPrompt)
+                //if statement to check if the bot must display the prompt
+                if (DisplayPrompt)
                 {
                     chatBox.SelectionColor = Color.Green;
                     chatBox.AppendText($"What can I assist you with today, {username}?\n");

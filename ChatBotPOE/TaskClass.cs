@@ -15,6 +15,7 @@ namespace ChatBotPOE
 
         public override string ToString()
         {
+            //format the task details as a string
             return $"Title: {Name}\nDescription: {Description} (Remind on {Reminder.ToShortDateString()}, Completed: {(IsCompleted ? "Yes" : "No")})";
 
         }
